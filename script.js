@@ -1,4 +1,4 @@
-const API_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbyCTZzalSveweIFwxRLW6Hztqxt1qYDRZ2-RDdX8Rc/dev";
 
 const times = ["10:00", "11:00", "14:00", "15:00"];
 
