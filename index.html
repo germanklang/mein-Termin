@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schedule</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 400px;
+      margin: 40px auto;
+    }
+    select, input, button {
+      width: 100%;
+      margin: 8px 0;
+      padding: 8px;
+      font-size: 16px;
+    }
+    button {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Book a time</h2>
+
+<label>Date</label>
+<select id="date"></select>
+
+<label>Time</label>
+<select id="time"></select>
+
+<label>Your name</label>
+<input id="name" placeholder="Your name">
+
+<button onclick="book()">Book</button>
+
+<p id="msg"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
